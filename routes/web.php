@@ -38,16 +38,4 @@ Route::get('/about', function () {
     ]) ;
 });
 
-Route::get('/details', function () {
-    return view('details',[
-        "title"=> "Details",
-        "img" => "",
-        "judul" => "Pemetik bintang",
-        "penulis" => "Ivan",
-        "sinopsis" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. E
-        ius, facere! Numquam veritatis, deserunt labore dolore natus dignissimos delectus quisquam ad consectetur, 
-        iste ratione sint id fugit commodi nisi provident minus ipsa qui possimus? In accusamus consectetur velit optio saepe rem?"
-        
-    ]) ;
-});
 
