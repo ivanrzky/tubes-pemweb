@@ -50,3 +50,4 @@ Route::get('/details', function () {
         
     ]) ;
 });
+
